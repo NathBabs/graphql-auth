@@ -1,0 +1,29 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type AuthResponse {
+  accessToken: String!
+  userId: String!
+}
+
+type Query {
+  healthCheck: String!
+}
+
+type Mutation {
+  register(registerInput: RegisterDto!): AuthResponse!
+  login(loginInput: LoginDto!): AuthResponse!
+  biometricLogin(biometricKey: String!): AuthResponse!
+}
+
+input RegisterDto {
+  email: String!
+  password: String!
+  biometricKey: String
+}
+
+input LoginDto {
+  email: String!
+  password: String!
+}
