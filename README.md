@@ -142,7 +142,7 @@ query {
 yarn test
 ```
 
-### GraphQL Schema
+### Documentation of GraphQL Schema
 
 The GraphQL schema is available in the `src/schema.gql` file after running the application. You can also explore the API using the GraphQL Playground at `http://localhost:3000/graphql` when the application is running.
 
