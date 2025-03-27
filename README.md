@@ -20,7 +20,7 @@ A secure authentication API built with NestJS and GraphQL, featuring email/passw
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/NathBabs/graphql-auth
    cd graphql-auth
    ```
 
